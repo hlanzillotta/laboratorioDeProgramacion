@@ -1,0 +1,16 @@
+                                             FUNCIONES/SUB-PROGRAMAS
+                                             -----------------------
+
+INTRODUCCIÓN
+------------
+
+Una función en Matemática es un conjunto de operaciones aritméticas básicas agrupadas 
+bajo un nombre que retornan un valor. 
+ 
+
+  y = log (x)
+
+    log ->  Nombre o identicador de la función.
+     x  ->  Argumento o parámetro. 
+     y  ->  Variable que almacena un valor, dependiendo del valor de la función en X.
+ 
