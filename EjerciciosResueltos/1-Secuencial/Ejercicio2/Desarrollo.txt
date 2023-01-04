@@ -1,0 +1,71 @@
+1) Definir qué es que debe resolver el programa: ENTRADA - SALIDA.
+   
+   ¿Cuáles son los datos  de entrada/ingreso? 
+
+    Dos números enteros.
+
+   ¿Cuál es la salida que se debe generar con el programa?
+
+    Informar la suma, resta, multiplicación, división y resta de ambos números ingresados.
+
+2) Determinar el cómo se debe resolver el proceso:
+
+   ¿Cómo sabe la computadora qué números debe sumar, restar, multiplicar, dividir, obtener el resto?.
+   
+   
+   INGRESO DE DATOS
+   ----------------
+   ¿Dónde están guardados los dos números?. -> La información que se ingresa por teclado se debe almacenar
+   en la memoria principal o R.A.M. 
+
+   Para reservar espacio en la memoria principal se utilizan variables. En este caso vamos a precisar de dos
+   variables para almacenar la información ingresada por el usuario con el teclado.
+
+   Una variable:tiene  Un tipo de dato y un nombre (identificador).
+                       int, float, char     Restricciones (No puede contener espacios, ni caracteres especiales salvo
+                                            _, ni puede comenzar con un número).
+
+
+   Variable1 : int numero1 -> Almacena en la memoria el primer número ingresado por el usuario.
+   
+   Variable2 : int numero2 -> Almacena en la memoria el segundo número ingresado por el usuario. 
+
+
+   PROCESO DE LAS OPERACIONES
+   --------------------------
+
+   ¿De dónde obtinene la computadora el resultado de la suma? Del contenido de la variable suma.
+
+   declarar una variable llamada suma de tipo int que guarde el resultado de variable1 + variable2   
+
+   ¿De dónde obtinene la computadora el resultado de la resta? Del contenido de la variable resta.
+
+   declarar una variable llamada resta de tipo int que guarde el resultado de variable1 - variable2 
+         
+   ¿De dónde obtinene la computadora el resultado de la multiplicación? Del contenido de la variable producto.
+
+   declarar una variable llamada producto de tipo int que guarde el resultado de variable1 * variable2                  
+
+   ¿De dónde obtinene la computadora el resultado de la división? Del contenido de la variable division.
+
+   declarar una variable llamada division de tipo int que guarde el resultado de variable1 / variable2     
+
+   ¿De dónde obtinene la computadora el resultado del resto Del contenido de la variable resto.
+
+   declarar una variable llamada resto de tipo int que guarde el resultado de variable1  variable2    
+
+3) Diagram de lógica o de flujo.
+
+4) Prueba de Escritorio
+
+   numero1 numero2 suma resta producto division resto
+
+      5       4      9    1       20       1       1 -> OK
+      0       1      1    -1      0        0       0 -> OK 
+      8       -5     3    13      -40     -1       3 -> OK    
+
+
+     
+   
+
+

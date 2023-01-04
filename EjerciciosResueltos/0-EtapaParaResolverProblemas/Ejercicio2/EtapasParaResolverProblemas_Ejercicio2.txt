@@ -1,0 +1,48 @@
+﻿Etapas para resolver el problema 2
+----------------------------------
+
+1) Determinar el ¿Qué?
+   
+   Informar la sumatoria y la diferencia entre dos números enteros.
+
+   Entrada: Dos números enteros.
+   
+   Salida: La sumatoria y la diferencia de los dos números enteros 
+           ingresados.
+
+2) Determinar el ¿Cómo? - Algoritmo- 
+
+   a) Solicitar al usuario el ingreso del primer número entero.
+
+   b) Almacenar el valor del paso a) en la variable numero1.
+
+   c) Solicitar al usuario el ingreso del segundo número entero.
+   
+   d) Almacenar el valor del paso c) en la variable numero2.
+    
+   e) Realizar la sumatoria de las variables numero1 y numero2, luego 
+      almacenarla en la variable sumatoria.
+   
+   f) Realizar la diferencia de las variables numero1 y numero2, luego 
+      almacenarla en la variable diferencia.
+
+   g) Informar el contenido de la variable sumatoria.
+
+   h) Informar el contenido de la variable diferencia.   
+
+3) Prueba de Escritorio
+
+   Variables: numero1, numero2, sumatoria, diferencia.
+
+    N° de Prueba | numero1| numero2 | sumatoria | diferencia
+    --------------------------------------------------------
+        1             5        7          12         -2
+    --------------------------------------------------------   
+        2             4        2          6          2
+    -------------------------------------------------------- 
+        3             8       -9          -1         17
+    --------------------------------------------------------
+        4             0       -1          -1         1
+    --------------------------------------------------------
+        5             48      124         172        76
+    --------------------------------------------------------                            

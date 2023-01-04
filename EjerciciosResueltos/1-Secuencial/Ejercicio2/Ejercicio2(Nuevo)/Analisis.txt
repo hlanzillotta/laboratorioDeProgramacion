@@ -1,0 +1,50 @@
+﻿Estructura Secuencial- Ejercicio N°2 –
+
+Etapa para la resolución de problemas
+
+
+1) ¿Qué?
+
+   Entrada: Dos números enteros.
+
+   Salida: La suma, la diferencia, el producto, la división y el resto de
+           ambos números.
+
+2) ¿Cómo? - Diseño de la estrategia - Algoritmo -
+
+   //INGRESO
+   a) Solicitar al usuario el ingreso del primer número entero.
+
+   b) Almacenar el número ingresado en la variable numero1.
+
+   c) Solicitar al usuario el ingreso del segundo entero.
+
+   d) Almacenar el número ingresado en la variable numero2.
+
+   
+   //PROCESO
+   e) Realizar la suma de las variables numero1 y numero2.
+
+   f) Almacenar en una variable resultado el paso e).
+
+   g) Realizar la diferencia de las variables numero1 y numero2.
+
+   h) Almacenar en una variable resta el paso g). 
+
+   i) Realizar la multiplicación de las variables numero1 y numero2. 
+
+   k) Almacenar en una variable producto el paso i).  
+  
+   j) Realizar la división de las variables numero1 y numero2. 
+
+   l) Almacenar en una variable division producto el paso j).  
+
+   ll) Almacenar en la variable resto, el resto del paso j).
+
+   //INFORMAR.
+
+   m) Informar los valores de las variables: resultado, resta, producto,
+      division y resto.
+
+
+   

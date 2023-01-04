@@ -1,0 +1,66 @@
+ingreso de 100 ventas
+
+por cada venta:
+
+codigo de venta (1 y 100) | cantidad (1 y 1000) | importe (>0) | Código operación (T,E,D)
+-----------------------------------------------------------------------------------------
+          50                          500             20                  E
+          80                          100             500                 T 
+          15                          10              5                   D --->Venta Menor
+          85                          900             5000                T --->Venta Mayor
+
+
+
+a) Total facturado en el mes
+   
+   total =  20 +  (500 + ((500 * 15)/100) + ....
+
+   total es una variable de tipo acumulador -> Inicializarla en cero
+
+   float total = 0;
+
+
+  ....
+
+  total += importe
+
+
+b) Cantidad de ventas con tarjeta, efectivo y descuento.
+                             2        1           1
+
+   Se precisan 3 variables de tipo contador -> se incrementan de a una unidad, se inicializan 
+   en cero.
+
+   int contadortarjeta = 0, contadorefectivo=0, contadordescuento=0;
+   
+   ....
+  
+   if( codigoOperacion == 'E')
+      
+      { contadorefectivo ++;}
+   
+   else
+        {
+          if( codigoOperacion == 'T')
+             { contadortarjeta ++; }   
+       
+          else
+             { contadordescuento ++;}
+
+        }   
+
+  --------------------------------------------------------------------------------------
+   switch(codigoOperacion)
+         {
+            case 'E' : contadorefectivo ++;
+                       break;
+           
+            case 'T' : contadortarjeta ++;
+                       break;
+           
+            case 'D' : contadordescuento ++;
+                       break;
+            
+            default : cout<<"Error de código de operación";
+
+         }  

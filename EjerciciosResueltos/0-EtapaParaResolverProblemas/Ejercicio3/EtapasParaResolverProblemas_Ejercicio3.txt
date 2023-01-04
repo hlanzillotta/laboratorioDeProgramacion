@@ -1,0 +1,38 @@
+Ejercicio Etapa para resolver problemas:
+
+1) Determinar ¿Qué? 
+               
+              ¿Cuál es la entrada o ingreso?  -> Dos números enteros.
+
+              ¿Cuál es la salida que debe generar el programa?  ->  El mayor de ambos números.
+
+2) Determinar el ¿Cómo?
+    
+                    ESTRATEGIA 1                                                                                       ESTRATEGIA 2
+                    ------------                                                                                       ------------
+     
+   a) Solicitar al usuario el primer número entero.                                             a) Solicitar al usuario el ingreso de los dos números enteros.                                          
+
+   b) Solicitar al usuario el segundo número entero.                                            b) Comparar el primer número contra el segundo número. 
+
+   c) Realizar la diferencia(resta) entre los dos números.                                      c) Si el primer número es mayor al segundo número entonces el mayor es el primero 
+ 
+   d) Almacenar o guardar la diferencia en la variable resultado.                                        Si no el mayor es el segundo número, si son iguales el mayor es el primero.
+   
+   d) Comparar el contenido de la variable resultado de la siguiente forma:                     d) Informar el mayor.
+            Si el resultado es positvo: entonces el mayor es el primer número.
+            Si el resultado es negativo:  entonces el mayor es el segundo número.
+            Si el resultado es cero : El mayor es el primer número.                               
+  
+  e) Informar el mayor. 
+
+
+4) Prueba de escritorio: Variables 1er número, 2do número, resultado, mayor.                    4) Prueba de escritorio: Variables=> 1er número, 2do número, mayor.                     
+ 
+  1er número 2do número   resultado    mayor                                                        
+  -------------------------------------------                                                     1er número 2do número   mayor
+      80         125         -45       125                                                            80        125       125 
+       4           2           2         4                                                             4         2         4 
+       0           1          -1         1                                                             0         1         1 
+       5           5           0         5                                                             5         5         5 ->1er número
+  
